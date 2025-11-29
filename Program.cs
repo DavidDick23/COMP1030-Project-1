@@ -31,9 +31,30 @@ namespace Project1
     {
         static void Main()
         {
-            //STEP 11: Create at least three new object instances of the class Album.
+            //STEP 11: Create at least three new object instances of the class Album. SHY
+            Album album1 = new Album(
+                "Dark Side of the Moon",
+                "Pink Floyd"
+                1973,
+                new List,string> {" Speak to Me", "Breathe (In the Air)", "On the Run", "Time, The great Gig in the Sky", "Money, Us and Them", "Any Colour You Like", "Brain Damage", "Eclipse"}
+                );
+            
+            Album album2 = new Album(
+                "Dark Side of the Moon",
+                "Pink Floyd"
+                1973,
+                new List,string> {" "}
+                );
+            
+            Album album3 = new Album(
+                "Dark Side of the Moon",
+                "Pink Floyd"
+                1973,
+                new List,string> {" "}
+                );
 
             //STEP 12: Use the above method to output the Album object properties to the console for each Album object.
         }
     }
 }
+
