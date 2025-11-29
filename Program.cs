@@ -39,7 +39,7 @@ namespace Project1
                 "Pink Floyd",
                 1973,
                 new List <string> {" Speak to Me", "Breathe (In the Air)", "On the Run", "Time, The great Gig in the Sky", "Money, Us and Them", "Any Colour You Like", "Brain Damage", "Eclipse"}
-                );
+            );
 
             //Album 2 resources used: https://www.thetoptens.com/music/albums/ for top 10 albums of all time, and Wikipedia for Track list and year of release: https://en.wikipedia.org/wiki/American_Idiot
             Album album2 = new Album(
@@ -65,6 +65,7 @@ namespace Project1
         }
     }
 }
+
 
 
 
