@@ -10,6 +10,7 @@ namespace Constructor
         public string Artist { get; private set; } //STEP 4: Name of the artist
         public int Year { get; private set; } //STEP 5: Year of release
         public List<string> Tracks { get; private set; } //STEP 6: List of song tracks
+        public string Time {get; private set;} // ADDED EXTRA FOR ALBUM TOTAL TIME-  SHY-ANNA
 
         //STEP 7: Build a Class constructor that enables your program to create a new Album object instance, setting each of the above properties properly.
         public Album(string name, string artist, int year, List<string> tracks)
@@ -18,6 +19,7 @@ namespace Constructor
             this.Artist = artist;
             this.Year = year;
             this.Tracks = tracks;
+            this.Time = time;//ALBUM TOTAL TIME
         }
 
         //STEP 8: Create a Class method that does the following:
@@ -29,3 +31,4 @@ namespace Constructor
         }
     }
 }
+
