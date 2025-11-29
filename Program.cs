@@ -54,16 +54,17 @@ namespace Project1
                 "Nevermind",
                 "Nirvana",
                 1991,
-                new List <string> {"Smells Like Teen Spirit", "In Blossom", "Come as You Are", "Breed". "Lithium", "Polly", "Territorial Pissings", "Drain You", "Lounge Act", "Stay Away", "On a Plane", "Something in the Way", "Endless, Nameless"}
+                new List <string> {"Smells Like Teen Spirit", "In Blossom", "Come as You Are", "Breed", "Lithium", "Polly", "Territorial Pissings", "Drain You", "Lounge Act", "Stay Away", "On a Plane", "Something in the Way", "Endless, Nameless"}
                 );
 
             //STEP 12: Use the above method to output the Album object properties to the console for each Album object.
-            album1.DisplayAlbumInfo();
-            album2.DisplayAlbumInfo();
-            album3.DisplayAlbumInfo();
+            album1.ShowAlbumInfo();
+            album2.ShowAlbumInfo();
+            album3.ShowAlbumInfo();
 
         }
     }
 }
+
 
 
